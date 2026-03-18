@@ -157,7 +157,13 @@ a {
 
 .logo {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
 }
 
 .logo-name {
@@ -174,12 +180,6 @@ a {
     text-transform: uppercase;
     color: var(--text-muted);
     margin-top: 4px;
-}
-
-.logo-img {
-    height: 70px;
-    width: auto;
-    object-fit: contain;
 }
 
 .desktop-nav {
