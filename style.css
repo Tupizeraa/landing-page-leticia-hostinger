@@ -176,6 +176,12 @@ a {
     margin-top: 4px;
 }
 
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
 .desktop-nav {
     display: flex;
     gap: 32px;
