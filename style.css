@@ -588,6 +588,13 @@ a {
     max-width: 300px;
 }
 
+.footer-logo-img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
 .social-links {
     display: flex;
     gap: 16px;
