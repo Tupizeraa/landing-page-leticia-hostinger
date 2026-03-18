@@ -157,13 +157,7 @@ a {
 
 .logo {
     display: flex;
-    align-items: center;
-}
-
-.logo-img {
-    height: 50px;
-    width: auto;
-    object-fit: contain;
+    flex-direction: column;
 }
 
 .logo-name {
